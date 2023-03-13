@@ -123,4 +123,122 @@
 // }
 
 /*exercice 13*/
+// function value(qqch) {
+//     let maxVal = qqch[0][0];
+//     for (let i = 0; i < qqch.length; i++){
+//       for (let j = 0; j < qqch[i].length; j++) {
+//         if (qqch[i][j] > maxVal) {
+//           maxVal = qqch[i][j];
+//         }
+//       }
+//     }
+//     return maxVal;
+//   }
+  
+//   const nbres = [[0, 18], [1, 45], [45, 48], [-3, 2]];
+//   const maxVal = value(nbres);
+  
+//   console.log(maxVal); 
+  
+/*exercice 14*/
 
+// function longueur(tab){
+//     a = prompt('phrase')
+//     long = a.length
+//     return long
+// }
+
+/*exercice 15*/
+
+// function devine(){
+//     let random = Math.round(Math.random()*5)
+//     let qqch = 0
+    
+//     while( qqch !== random){
+//          qqch = parseInt(prompt('devine le nombre'))
+//          if (qqch < random){
+//              console.log('trop petit')
+//          }
+//          if(qqch > random){
+//              console.log('trop grand')
+//          }    
+//      }
+//      console.log('bien joué')
+//  }
+
+/*exercice 16*/
+
+// function qqch(a, b){
+//     if(a > b){
+//         return 0
+//     }
+//     else{
+//         return 1
+//     }
+// }
+
+/*exercice 17*/
+
+
+/*exercice 18*/
+// function trouverPlusGrand(tableau) {
+//     let maxVal = tableau[0];
+  
+//     for (let i = 0; i < tableau.length; i++) {
+//       if (tableau[i] > maxVal) {
+//         maxVal = tableau[i];
+//       }
+//     }
+  
+//     return maxVal;
+//   }
+  
+//   let tableau = [2, 6, 1, 7, 9, 3];
+//   let resultat = trouverPlusGrand(tableau);
+//   console.log(resultat); 
+
+// exercice 19
+// function compterVoyelles(chaine) {
+//     let nbVoyelles = 0;
+//     let voyelles = "aeiaeuou";
+//     for (let i = 0; i < chaine.length; i++) {
+//       if (voyelles.includes(chaine[i])) {
+//         nbVoyelles++;
+//       }
+//     }
+//     return nbVoyelles;
+//   } 
+//   let chaine = "Bonjour tout le monde!";
+//   let resultat = compterVoyelles(chaine);
+//   console.log(resultat); 
+   /*exercice 20*/
+//    function filtrerNombresPairs(tableau) {
+//     let tableauNombresPairs = [];
+  
+//     for (let i = 0; i < tableau.length; i++) {
+//       if (tableau[i] % 2 === 0) {
+//         tableauNombresPairs.push(tableau[i]);
+//       }
+//     }
+  
+//     return tableauNombresPairs;
+//   }
+  
+//   let tableau = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+//   let resultat = filtrerNombresPairs(tableau);
+//   console.log(resultat); 
+  
+  /*exercice 21*/
+//   function reverseWords(str) {
+//     var words = str.split(" ");
+//     for (var i = 0; i < words.length; i++) {
+//       words[i] = words[i].split("").reverse().join("");
+//     }
+//     return words.join(" ");
+//   }
+//   var str = "ceci est une phrase";
+//   var reversedStr = reverseWords(str);
+//   console.log(reversedStr); 
+  
+  
+  
