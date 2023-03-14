@@ -241,4 +241,174 @@
 //   console.log(reversedStr); 
   
   
+   /* PARTIE 2*/
+
+   /*exercice 1*/
+  //  function myLength(str) {
+  //   let count = 0;
+  //   for (let i = 0; i < str.length; i++) {
+  //     count++;
+  //   }
+  //   return count;
+  // }
   
+  /*exercice 2*/
+  // function myTrim(str) {
+  //   let start = 0;
+  //   let end = str.length - 1;
+  
+  //   while (start < end && str[start] === ' ') {
+  //     start++;
+  //   }
+  
+  //   while (end > start && str[end] === ' ') {
+  //     end--;
+  //   }
+  
+  //   return str.substring(start, end + 1);
+  // }
+
+  /*exerice 1bis*/
+//   let nombre = 0;
+
+// while (nombre < 1 || nombre > 3) {
+//   nombre = parseInt(prompt("Entrez un nombre entre 1 et 3 :"));
+// }
+
+// alert("Vous avez choisi le nombre " + nombre + ".");
+
+/*exercice 2bis*/
+// let nombre = 0;
+
+// while (nombre < 10 || nombre > 20) {
+//   nombre = parseInt(prompt("Veuillez saisir un nombre entre 10 et 20 :"));
+
+//   if (nombre > 20) {
+//     console.log("Plus petit !");
+//   } else if (nombre < 10) {
+//     console.log("Plus grand !");
+//   }
+// }
+
+// console.log("Merci, vous avez saisi le nombre " + nombre + ".");
+
+ /*exercice 3*/
+
+//  function afficherDixNombresSuivants() {
+//   let nombreDepart = parseInt(prompt("Veuillez saisir un nombre de départ :"));
+
+//   for (let i = 1; i <= 10; i++) {
+//     let nombreSuivant = nombreDepart + i;
+//     console.log(nombreSuivant);
+//   }
+// }
+
+// Exercice 4
+
+// function compteur(user){
+//   let calc = user + 1
+//   i= 0
+//  for(i =0 ; i < 11; i++){
+//   calc += 1
+//   console.log(calc);
+//  }
+// }
+
+// Exercice 5
+// function multiplication(nb1, nb2){
+//   for(i = 0; i < nb2 + 1; i++){
+//     let calc = nb1 * i
+//     console.log(nb1 +'*' + i +'=' + calc);
+//   } 
+// }
+
+// Exercie 6
+// function accumulate(nbr){
+//   let i = 1
+//   let compt = i++
+//   while(i < nbr){  
+//     let calc = compt + i
+//     console.log(calc);
+//     calc +=1
+//     compt++
+//   }
+// }
+ 
+/*exercice 7*/
+// function calculerFactorielle() {
+//   const nombre = prompt("Entrez un nombre :");
+//   if (nombre < 0 || !Number.isInteger(+nombre)) {
+//     return "Le nombre doit être un entier positif.";
+//   } else {
+//     let factorielle = 1;
+//     for (let i = 2; i <= nombre; i++) {
+//       factorielle *= i;
+//     }
+//     return `${nombre}! = ${factorielle}`;
+//   }
+// }
+// console.log(calculerFactorielle());
+
+/*exercie 8*/
+// function trouverPlusGrandNombre() {
+//   let plusGrandNombre = -Infinity;
+//   let positionPlusGrandNombre = -1;
+
+//   for (let i = 1; i <= 20; i++) {
+//     const nombre = prompt(`Entrez le nombre numéro ${i} :`);
+//     const nombreParse = parseFloat(nombre);
+
+//     if (!isNaN(nombreParse)) {
+//       if (nombreParse > plusGrandNombre) {
+//         plusGrandNombre = nombreParse;
+//         positionPlusGrandNombre = i;
+//       }
+//     }
+//   }
+
+//   console.log(`Le plus grand de ces nombres est : ${plusGrandNombre}`);
+//   console.log(`C'était le nombre numéro ${positionPlusGrandNombre}`);
+// }
+// trouverPlusGrandNombre();
+
+/*exercice 9*/
+// function trouverPlusGrandNombre() {
+//   let plusGrandNombre = -Infinity;
+//   let positionPlusGrandNombre = -1;
+//   let nombre = null;
+//   let i = 0;
+
+//   while (nombre !== 0) {
+//     i++;
+//     nombre = prompt(`Entrez le nombre numéro ${i} (ou entrez 0 pour terminer) :`);
+//     const nombreParse = parseFloat(nombre);
+
+//     if (!isNaN(nombreParse)) {
+//       if (nombreParse > plusGrandNombre) {
+//         plusGrandNombre = nombreParse;
+//         positionPlusGrandNombre = i;
+//       }
+//     }
+//   }
+
+//   if (i === 1) {
+//     console.log(`Vous n'avez entré aucun nombre.`);
+//   } else {
+//     console.log(`Le plus grand de ces nombres est : ${plusGrandNombre}`);
+//     console.log(`C'était le nombre numéro ${positionPlusGrandNombre}`);
+//   }
+// }
+// trouverPlusGrandNombre();
+
+/*exercice 10*/
+// function calculerSommeMarie(n) {
+//   let ageMarie = n;
+//   let somme = 0;
+//   for (let i = 1; i <= n; i++) {
+//     somme += 100 + (2 * ageMarie);
+//     ageMarie++;
+//   }
+//   return somme;
+// }
+// const sommeMarie = calculerSommeMarie(5);
+// console.log(`Marie aura ${sommeMarie} euros sur son compte à son 5ème anniversaire.`);
